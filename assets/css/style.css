@@ -24,9 +24,13 @@ h1, h2, h3, h4 {
 /*Header Section*/
  header {
     position: fixed;
+    z-index: 99;
+    padding: 0 1rem;
     background-color: rgb(8, 100, 21);
     width: 100%;
-    display:inline-flex;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
  }
  header a {
     text-decoration: none;
@@ -37,6 +41,21 @@ h1, h2, h3, h4 {
     letter-spacing: 2px;
     font-size: 120%;
  }
+ #nav-menu > li {
+    margin-bottom: 1rem;
+ }
+ /*Navigation Bar*/
+nav {
+    position: absolute;
+    background-color: rgb(125, 125, 125);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    align-self: left;
+    top: 100%;
+}
+
+
  /*About Us Section*/
 main {
     background-color: darkgrey;
