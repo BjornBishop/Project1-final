@@ -6,7 +6,11 @@
 }
  
 /* General style rules */ 
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
  /*header*/
  header {
     background-color: #034605;
@@ -46,6 +50,7 @@ nav {
     box-shadow: 0 2px 20x #3a3a3a;
     display: none;
     top: 100%;
+    vertical-align: top;
 }
  /* Nav toggle*/
  #nav-toggle:checked~nav {
@@ -60,7 +65,6 @@ nav {
  /*Main Content*/
  main {
     background-color: red;
-    margin-top: 47px;
  }    
  /*Success section*/
  #success {
