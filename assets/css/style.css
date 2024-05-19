@@ -69,6 +69,7 @@ nav {
  /*Main Section*/
 main {
     background: url("../pictures/pexels-rquiros-2330137.jpg") center center/cover;
+    z-index: 50;
     flex: 1 0 auto;
     margin-top: 36px;
     color: white;
