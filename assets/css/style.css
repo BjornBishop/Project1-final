@@ -1,0 +1,78 @@
+ /* Asterisk wildcard selector to override default style added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+/* General style rules */ 
+
+ /*header*/
+ header {
+    background-color: #034605;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ header a {
+    text-decoration: none;
+    color: white;
+ }
+ #logo {
+    font-size: 160%;
+    color: white;
+ }
+ #menu {
+    list-style-type: none;
+    letter-spacing: 4px;
+    font-size: 110%;
+}
+#menu > li {
+    margin-bottom: 1rem;
+}
+/* nav bar style with drop down menu*/ 
+nav {
+    position: absolute;
+    background-color: #034605;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    align-self: left; 
+    box-shadow: 0 2px 20x #3a3a3a;
+    display: none;
+    top: 100%;
+}
+ /* Nav toggle*/
+ #nav-toggle:checked~nav {
+    display: block;
+ }
+#nav-toggle {
+    /*display: none;*/
+}
+.nav-toggle-lable {
+    font-size: 2rem;
+}
+ /*Main Content*/
+ main {
+    background-color: red;
+    margin-top: 47px;
+ }    
+ /*Success section*/
+ #success {
+    background-color: purple;
+    width: 100%;
+ }
+ /*Sign Up Section*/
+#sign-up {
+        background-color: lightsalmon;
+        width: 100%;
+    }
+ /*footer*/
+ footer {
+    background-color: yellow;
+ }
