@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
     position: fixed;
     z-index: 99;
     padding: 0 1rem;
-    background-color: rgb(8, 95, 18);
+    background-color: rgb(73, 28, 70);
     width: 100%;
     display:flex;
     justify-content: space-between;
@@ -47,21 +47,57 @@ h1, h2, h3, h4 {
  /*Navigation Bar*/
 nav {
     position: absolute;
-    background-color: rgb(125, 125, 125);
+    background-color: rgba(167, 68, 160, 0.5);
     width: 100%;
     left: 0;
     padding: 0 1rem;
     align-self: left;
+    display: none;
     top: 100%;
 }
-
+#nav-toggle {
+    display: none;
+}
+#nav-toggle:checked~nav {
+    display: block;
+}
+.nav-toggle-label {
+    font-size: 1.6rem;
+}
 
  /*About Us Section*/
 main {
-    background-color: darkgrey;
+    background-color: rgb(14, 14, 14);
+    flex: 1 0 auto;
+    margin-top: 36px;
+    color: white;
+}
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../pictures/computer.jpg") no-repeat center center/cover;
+    position: relative;
+} 
+.cover-text {
+    background-color: rgba(0, 0, 0, 0.68);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: fit-content;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
  /*Success Section*/
-
+#success {
+    background-color: red;
+}
  /*Sign Up Section*/
- 
+ #sign-up {
+    background-color: blue;
+ }
  /*footer Section*/
+ footer {
+    background-color: orange;
+ }
