@@ -7,12 +7,13 @@
 
 /*General Styling Properties*/
 body {
-    min-height: 100vh;
+    min-height: 125vh;
     display: flex;
     flex-direction: column;
     /*Generic project properties*/
     color: rgb(245, 234, 234);
     font-family: sans-serif;
+    overflow: scroll;
 }
 h1, h2, h3, h4 {
     font-family: sans-serif;
@@ -47,7 +48,7 @@ h1, h2, h3, h4 {
  /*Navigation Bar*/
 nav {
     position: absolute;
-    background-color: rgba(167, 68, 160, 0.5);
+    background-color: rgba(167, 68, 160, 0.669);
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -65,7 +66,7 @@ nav {
     font-size: 1.6rem;
 }
 
- /*About Us Section*/
+ /*Main Section*/
 main {
     background-color: rgb(14, 14, 14);
     flex: 1 0 auto;
@@ -78,20 +79,47 @@ main {
     width: 100%;
     background: url("../pictures/computer.jpg") no-repeat center center/cover;
     position: relative;
+    bottom: 30px;
 } 
 .cover-text {
     background-color: rgba(0, 0, 0, 0.68);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    bottom: 70px;
     width: fit-content;
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
 }
+/*About us section*/
+#about-text {
+    width: 100%;
+    position:absolute;
+}
+.intro-text {
+    padding: 0 10px;
+    display: flexbox;
+}
+.intro-text2 {
+    padding: 0 10px;
+    display: flexbox;
+    margin-top: 20px;
+}
+.intro-text3 {
+    padding: 0 10px;
+    display: flexbox;
+    margin-top: 20px;
+}
+.intro-text4 {
+    padding: 0 10px;
+    display: flexbox;
+    margin-top: 20px;
+}
  /*Success Section*/
 #success {
     background-color: red;
+    width: 100%;
+    vertical-align: top;
 }
  /*Sign Up Section*/
  #sign-up {
@@ -101,3 +129,41 @@ main {
  footer {
     background-color: orange;
  }
+/* Media query: tablets and larger screens (768px and above)*/
+@media screen and (min-width:768px) {
+    body {
+        min-height: 112vh;
+    }
+    .intro-text {
+        max-width: 50%;
+        position: relative;
+        float: left;
+        margin-left: 10%;
+    }
+    .intro-text2 {
+        max-width: 50%;
+        position: relative;
+        float: right;
+        margin-right: 10%;
+        margin-top: 20px;
+    }
+    .intro-text3 {
+        max-width: 50%;
+        position: relative;
+        float: left;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .intro-text4 {
+        max-width: 50%;
+        position: relative;
+        float: right;
+        margin-right: 10%;
+        margin-top: 20px;
+    }
+}
+@media  and (min-width:2565px) {
+    .about-text {
+        min-height: 50vh;
+    }
+}
