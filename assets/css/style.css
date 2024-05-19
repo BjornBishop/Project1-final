@@ -4,79 +4,45 @@
     margin: 0;
     box-sizing: border-box;
 }
- 
-/* General style rules */ 
+
+/*General Styling Properties*/
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /*Generic project properties*/
+    color: rgb(245, 234, 234);
+    font-family: sans-serif;
 }
- /*header*/
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgb(245, 234, 234);
+}
+
+/*Header Section*/
  header {
-    background-color: #034605;
-    padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    background-color: rgb(8, 100, 21);
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
+    display:inline-flex;
+ }
  header a {
     text-decoration: none;
-    color: white;
+    color: inherit;
  }
- #logo {
-    font-size: 160%;
-    color: white;
- }
- #menu {
+ #nav-menu {
     list-style-type: none;
-    letter-spacing: 4px;
-    font-size: 110%;
-}
-#menu > li {
-    margin-bottom: 1rem;
-}
-/* nav bar style with drop down menu*/ 
-nav {
-    position: absolute;
-    background-color: #034605;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    align-self: left; 
-    box-shadow: 0 2px 20x #3a3a3a;
-    display: none;
-    top: 100%;
-    vertical-align: top;
-}
- /* Nav toggle*/
- #nav-toggle:checked~nav {
-    display: block;
+    letter-spacing: 2px;
+    font-size: 120%;
  }
-#nav-toggle {
-    /*display: none;*/
+ /*About Us Section*/
+main {
+    background-color: darkgrey;
 }
-.nav-toggle-lable {
-    font-size: 2rem;
-}
- /*Main Content*/
- main {
-    background-color: red;
- }    
- /*Success section*/
- #success {
-    background-color: purple;
-    width: 100%;
- }
+ /*Success Section*/
+
  /*Sign Up Section*/
-#sign-up {
-        background-color: lightsalmon;
-        width: 100%;
-    }
- /*footer*/
- footer {
-    background-color: yellow;
- }
+ 
+ /*footer Section*/
