@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
  /*Navigation Bar*/
 nav {
     position: absolute;
-    background-color: rgba(167, 68, 160, 0.669);
+    background-color: rgba(73, 28, 70);
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -215,12 +215,52 @@ main {
  }
  /*footer Section*/
  footer {
-    background-color: orange;
+    background-color: rgb(89, 13, 72);
+    min-height: 10vh;
  }
+ #social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks li {
+    font-size: 180%;
+    text-decoration: none;
+    padding: 5%;
+    color: #ffffff;
+}
 /* Media query: tablets and larger screens (768px and above)*/
 @media screen and (min-width:768px) {
     body {
         min-height: 112vh;
+    }
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #nav-menu {
+        display: flex;
+    }
+
+    #nav-menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
     }
     /*Intro section*/
     .intro-text {
@@ -271,5 +311,62 @@ main {
         max-width: 70%;
         margin: auto;
         margin-top: 22.5px;
+    }
+}
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /*navigation section*/
+    #menu a:hover{
+        border-bottom: 1px solid #ffffff;
+    }
+    #nav-menu {
+        padding: 0 20px;
+    }
+    /*Hero section*/
+    .cover-text {
+        margin-left: 50px;
+    }
+    /*about section*/
+    #about-text {
+        font-size: 25px;
+    }
+    /*About Section*/
+    .intro-text, .intro-text2, .intro-text3, .intro-text4 {
+        width: 500px;
+        display: inline-block;
+        margin: 40px 60px;
+    }
+    .intro-text {
+        float: none;
+        vertical-align: top;
+    }
+    .intro-text2 {
+        float: none;
+        vertical-align: top;
+    }
+    .intro-text3 {
+        vertical-align: top;
+        float: none;
+    }
+    .intro-text4 {
+        vertical-align: top;
+        float: none;
+    }
+    /*Success section*/
+    #success {
+        padding-bottom: 40px;
+    }
+    #success h4 {
+        font-size: 40px;
+    }
+    #success p {
+        font-size: 30px;
+    }
+    /*sign up section*/
+    #sign-up {
+        background: url("../pictures/pexels-anna-nekrashevich-6802049.jpg") center top/cover;
+    }
+    .sign-up-area {
+        width: 30%;
     }
 }
