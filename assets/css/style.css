@@ -165,11 +165,53 @@ main {
  #sign-up {
     min-height: 60vh;
     background: url("../pictures/pexels-anna-nekrashevich-6802049.jpg") center center/cover;
+    border: solid 4px rgba(0, 0, 0, 0.842);
  }
  .sign-up-area {
     background-color: rgba(0, 0, 0, 0.872);
     min-height: 56vh;
     margin-top: 20px;
+ }
+ /*sign up form*/
+ input[type=text] {
+    width: 100%;
+    font-size: 28px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline;
+    border: none;
+ }
+ label{
+    font-size: 15px;
+ }
+ input[type=text]:focus:focus {
+    background-color: #ddd;
+    outline: none;
+ }
+ hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+ }
+ button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(10, 119, 13);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+ }
+ button:hover {
+    opacity:1;
+ }
+ .sign-up-area {
+    padding: 16px;
+ }
+ .sign-up-area p{
+    font-size: 28px;
  }
  /*footer Section*/
  footer {
@@ -223,5 +265,11 @@ main {
         position: relative;
         display: inline-block;
         vertical-align: top;
+    }
+    /*sign up section*/
+    .sign-up-area {
+        max-width: 70%;
+        margin: auto;
+        margin-top: 22.5px;
     }
 }
