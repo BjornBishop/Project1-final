@@ -97,26 +97,40 @@ main {
     width: 100%;
     position:static;
 }
-.intro-text {
-    padding: 0 10px;
+.text-box {
+    padding: 20px;
     display: flexbox;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 5%;
+}
+.text-box .bottom {
+    margin-bottom: 5%;
+}
+/*.intro-text {
+    padding: 20px;
+    display: flexbox;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .intro-text2 {
     padding: 0 10px;
     display: flexbox;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .intro-text3 {
     padding: 0 10px;
     display: flexbox;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .intro-text4 {
     padding: 0 10px;
     display: flexbox;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
+*/ 
  /*Success Section*/
  /*Success Story1*/
 #success {
@@ -264,6 +278,21 @@ main {
         margin: 0 0.5rem;
     }
     /*Intro section*/
+    .text-box .right {
+        max-width: 50%;
+        position: relative;
+        float: right;
+        margin-right: 10%;
+        margin-top: 20px;
+    }
+    .text-box .left {
+        max-width: 50%;
+        position: relative;
+        float: left;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    /*
     .intro-text {
         max-width: 50%;
         position: relative;
@@ -291,6 +320,7 @@ main {
         margin-right: 10%;
         margin-top: 20px;
     }
+    /*
     /*Success section*/
     #success {
         text-align: center;
