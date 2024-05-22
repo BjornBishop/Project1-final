@@ -137,10 +137,10 @@ main {
  /*Success Section*/
  /*Success Story1*/
 #success {
-    background-color: rgb(73, 28, 70);
+    background-color: rgb(2, 25, 88);
     width: 100%;
     vertical-align: top;
-    min-height: 45vh;
+    min-height: 30%;
     border-top: 2px solid rgba(0, 0, 0, 0.623);
 }
 .success1 {
@@ -234,9 +234,6 @@ main {
  /*footer Section*/
  footer {
     background-color: rgb(255, 255, 255);
- }
- .footersection {
-    height: 10%;
  }
  #social-networks {
     text-align: center;
