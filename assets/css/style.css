@@ -97,7 +97,7 @@ main {
 }
 .text-box {
     padding: 20px;
-    display: flexbox;
+    display:flexbox;
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 5%;
     border-top: white 2px solid;
@@ -359,7 +359,7 @@ main {
         border-bottom: 1px solid #ffffff;
     }
     #nav-menu {
-        padding: 0 20px;
+        padding: 0 40px;
     }
     /*Hero section*/
     .cover-text {
