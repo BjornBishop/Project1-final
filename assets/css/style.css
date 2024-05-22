@@ -68,9 +68,8 @@ nav {
 
  /*Main Section*/
 main {
-    background: url("../pictures/pexels-rquiros-2330137.jpg") center center/cover;
-    z-index: 50;
     flex: 1 0 auto;
+    background-color: rgb(0, 0, 0);
     margin-top: 36px;
     color: white;
 }
@@ -78,7 +77,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../pictures/computer.jpg") no-repeat center center/cover;
+    background: url("../pictures/pexels-danbuilds-633409.jpg") no-repeat center center/cover;
     position: relative;
     bottom: 30px;
 } 
@@ -102,6 +101,7 @@ main {
     display: flexbox;
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 5%;
+    border-top: white 2px solid;
 }
 .bottom {
     margin-bottom: 5%;
@@ -141,7 +141,7 @@ main {
     width: 100%;
     vertical-align: top;
     min-height: 30%;
-    border-top: 2px solid rgba(0, 0, 0, 0.623);
+    border-top: 2px solid rgba(0, 0, 0, 0.349);
 }
 .success1 {
     margin-left: 15px;
