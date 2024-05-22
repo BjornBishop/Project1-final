@@ -1,112 +1,72 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Bjorn Bishop,
+# Welcome to GigFree 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Overview: GigFree is a website for freelance IT Infrastructure consultants to register to gain access to high quality assignments that have been qualified by a dedicated team of HR specialists. The reason for this site is because currently, freelancers have a couple of options when it comes to looking for work. After speaking with countless freelancers, all the ways that they are able to look for new assignments require them to get calls out of the blue from recruiters or have an incredible marketing skill to attract in-bound leads. 
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+GigFree hopes to fill a void and create more options for Infrastructure Freelance assignments by consolidating roles from various brokerage firms, using AI to identify absolute key factors in the assignments and match that with the best freelancers around. No more cold-calls from people that dont know what they are talking about and just interrupting your day. 
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This section will cover the features that were added to GigFree for functionality purposes. 
 
-`python3 -m http.server`
+### Navigation Bar:
+- Navigation bar was added to site with responsive design - when screen is below 768px, the navigation bar compresses into a clickable compas to provide navigation links. 
+- navigation bar is also fixed on screen, so when scrolling down through-out the website, customers can easily find the navigation bar at the top of the screen allowing customers to navigate without pressing the back button or aggressivly scrolling. 
 
-A blue button should appear to click: _Make Public_,
+### Landing Image: 
+- The site include a landing page image with text overlay to allow users to easily and quickly identify the purpose of the website and if it is applicable to them. 
+- This section introduces the user to GigFree with a colorful and eye catching landing space. 
 
-Another blue button should appear to click: _Open Browser_.
+### About Section:
+- This section gives the users a quick overview of the plan of action and purpose of the site. 
+- Users should quickly identify the "WIIFM" and the value of signing up. 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+### Success Stories:
+- This section is to show stories of previous users of the service and share insights of the market situation and how GigFree approaches the freelance market and roles. 
+- This section is to again, show the value that GigFree can bring to freelancers that are interested in having a consolidated location to access freelance assignments. 
 
-A blue button should appear to click: _Make Public_,
+### Sign Up Section:
+- The sign up section allows users to sign up to access GigFree services. The users can specify their current role and the working area that they are focused on. For example, a DevOps engineer can further specify they work more with Operations rather than Development or Infrastructure. 
 
-Another blue button should appear to click: _Open Browser_.
+### Footer Section: 
+- The footer section includes links to the relevant social media sites for GigFree. The links will open a new tab to allow easy navigation for users. 
+- Social media liks are useful for the user to stay connected and get insights into the user base of services. 
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Features to implement: 
+- Currently, signing up simply emails the web-domain. In the future, it would be best to add a section where consultants can go more in detail about their experience or upload a templated CV which can be combined with AI such as "Maker.ai" to maximise candidate matching with assignments. 
+- Some form of database added to the backend to store data and to allow GigFree host to provide freelancers with assignments. 
+- Additionally, for the success stories section, it would be best to only have 1 story visable with a swiping function, so users are able to swipe through different success stories. On each story, there could also be a link to read more instead of so much text which can cause friction for mobile users. 
+- better background images would also be nice. perhaps learn about gradient colurs and how to reposition images within the background frame.
 
-To log into the Heroku toolbelt CLI:
+## Testing 
+GigFree was developed from a mobile first perspective with larger screens kept in mind throughout the development process. With that said, there have been 2 previous versions of development trials:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Version1 
+The first version of GigFree was developed from a computer screen perspective, when it came to making the site reactive, a lot of the elements, placements etc. were too complex to scale down. It was decided to start a fresh and bring some core concepts from the first version into version 2. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### Version2 
+The second version was still built on a computer screen perspective with the intention to organize the div elements in a way that would allow reactive coding to be implemented. A navigation bar was created with the 4 links to various sections of the site. There was still a learning curve to overcome though. Instead of using the hero image as a background image, I attempted to have the img and div element relatively and absolutely placed to allow a text overlay. 
 
-------
+When testing how to make the site reactive, it was discovered that the navigation bar, by design, had no reactive ability. I was able to have the current navigation links disapprear and reappear but again due to the complexity of the class names that were done to patch work the problem, it was inevitably decided to start the development process again. 
 
-## Release History
+### Version3 (final version)
+Before starting the third vision, the "Love Running" section was re-visited and discovered there were sections previously missed which helped the development process. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Version 3 began with a mobile first perspective and using the conent from the previous 2 versions, GigFree was able to take shape faster and with more reactive design in mind. Throughout the development process, a separate browser was kept open with the site and using the developer tools, mobile S view was selected. Everytime a change was made a soft or hard refresh was done depending on the types of changes made and if cache needed clearing. 
 
-**April 26 2024:** Update node version to 16
+After completing a section, e.g the navigation bar, reactive CSS code were put in place to ensure smooth scaling. Once the scaling elements were completed, the new section went into development. This is believed to help keep the code within the reasonable limits of complexity, unline previous attempts. 
 
-**September 20 2023:** Update Python version to 3.9.17.
+### Validator Testing: 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- HTML
+  - 5 similar errors were found when running the site through the [validator](https://validator.w3.org/)
+    - The value of the for attribute of the label element must be the ID of a non-hidden form control. 
+    - I googled the issue which suggested adjusting the structure so the inputs were nestled inside the lable element. That did not work. Another suggestion was to give a unique ID to each of the lables, which also did not work. Given more time, I believe a solution could be found. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- CSS
+  - 1 error was found when running the site through the [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - I tried changing the display several times but found the design I wanted required a display value that failed the CSS validator and I couldnt figure out why. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
