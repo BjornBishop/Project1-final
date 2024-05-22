@@ -103,10 +103,13 @@ main {
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 5%;
 }
-.text-box .bottom {
+.bottom {
     margin-bottom: 5%;
 }
-/*.intro-text {
+/*
+-- Below is all the code i was able to remove while keeping the same functionality and reactivity of the site --
+
+.intro-text {
     padding: 20px;
     display: flexbox;
     background-color: rgba(0, 0, 0, 0.8);
@@ -230,13 +233,16 @@ main {
  }
  /*footer Section*/
  footer {
-    background-color: rgb(89, 13, 72);
-    min-height: 10vh;
+    background-color: rgb(255, 255, 255);
+ }
+ .footersection {
+    height: 10%;
  }
  #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
+    text-decoration: none;
     justify-content: space-evenly;
     list-style-type: none;
 }
@@ -244,7 +250,7 @@ main {
 #social-networks li {
     font-size: 180%;
     text-decoration: none;
-    padding: 5%;
+    padding: 1%;
     color: #ffffff;
 }
 /* Media query: tablets and larger screens (768px and above)*/
@@ -278,21 +284,27 @@ main {
         margin: 0 0.5rem;
     }
     /*Intro section*/
-    .text-box .right {
+    .text-box {
         max-width: 50%;
         position: relative;
-        float: right;
         margin-right: 10%;
         margin-top: 20px;
     }
-    .text-box .left {
+    .right {
+        float: right;
+    }
+    .text-box {
         max-width: 50%;
         position: relative;
-        float: left;
         margin-left: 10%;
         margin-top: 20px;
     }
+    .left {
+        float:left;
+    }
     /*
+
+    -- Below is all the code i was able to remove while keeping the same functionality and reactivity of the site --
     .intro-text {
         max-width: 50%;
         position: relative;
@@ -362,6 +374,17 @@ main {
         font-size: 25px;
     }
     /*About Section*/
+    .text-box {
+        width: 500px;
+        height: 374px;
+        display: inline-block;
+        margin: 40px 60px;
+        float: none;
+        vertical-align: top;
+    }
+    /*
+
+    -- Code below was able to be reduced while maintaining functionality and reactivity --
     .intro-text, .intro-text2, .intro-text3, .intro-text4 {
         width: 500px;
         display: inline-block;
@@ -383,15 +406,23 @@ main {
         vertical-align: top;
         float: none;
     }
+    */ 
+
     /*Success section*/
     #success {
         padding-bottom: 40px;
     }
     #success h4 {
-        font-size: 40px;
+        font-size: 30px;
     }
     #success p {
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .remote-work-photo img {
+        width: 20%;
+    }
+    .success2-photo img {
+        width: 20%;
     }
     /*sign up section*/
     #sign-up {
