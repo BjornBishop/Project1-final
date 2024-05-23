@@ -6,9 +6,9 @@ Overview: GigFree is a website for freelance IT Infrastructure consultants to re
 
 GigFree hopes to fill a void and create more options for Infrastructure Freelance assignments by consolidating roles from various brokerage firms, using AI to identify absolute key factors in the assignments and match that with the best freelancers around. No more cold-calls from people that dont know what they are talking about and just interrupting your day. 
 
-![Desktop view of GigFree](../Project1-final/assets/pictures/computer.JPG)
-![Tablet view of GigFree](../Project1-final/assets/pictures/tablet.JPG)
-![Mobile view of GigFree](../Project1-final/assets/pictures/phone.JPG)
+![Desktop view of GigFree](assets/pictures/computer.JPG)
+![Tablet view of GigFree](assets/pictures/tablet.JPG)
+![Mobile view of GigFree](assets/pictures/phone.JPG)
 
 ## Features
 
@@ -18,13 +18,13 @@ This section will cover the features that were added to GigFree for functionalit
 - Navigation bar was added to site with responsive design - when screen is below 768px, the navigation bar compresses into a clickable compas to provide navigation links. 
 - navigation bar is also fixed on screen, so when scrolling down through-out the website, customers can easily find the navigation bar at the top of the screen allowing customers to navigate without pressing the back button or aggressivly scrolling. 
 
-![Navigation Bar](../Project1-final/assets/pictures/nav%20bar.JPG)
+![Navigation Bar](assets/pictures/nav%20bar.JPG)
 
 ### Landing Image: 
 - The site include a landing page image with text overlay to allow users to easily and quickly identify the purpose of the website and if it is applicable to them. 
 - This section introduces the user to GigFree with a colorful and eye catching landing space. 
 
-![Landing page](../Project1-final/assets/pictures/Landing%20page.JPG)
+![Landing page](assets/pictures/Landing%20page.JPG)
 
 ### About Section:
 - This section gives the users a quick overview of the plan of action and purpose of the site. 
@@ -34,12 +34,12 @@ This section will cover the features that were added to GigFree for functionalit
 - This section is to show stories of previous users of the service and share insights of the market situation and how GigFree approaches the freelance market and roles. 
 - This section is to again, show the value that GigFree can bring to freelancers that are interested in having a consolidated location to access freelance assignments. 
 
-![Success Section](../Project1-final/assets/pictures/Success.JPG)
+![Success Section](assets/pictures/Success.JPG)
 
 ### Sign Up Section:
 - The sign up section allows users to sign up to access GigFree services. The users can specify their current role and the working area that they are focused on. For example, a DevOps engineer can further specify they work more with Operations rather than Development or Infrastructure. 
 
-![Sign Up Form](../Project1-final/assets/pictures/Sign%20up.JPG)
+![Sign Up Form](assets/pictures/Sign%20up.JPG)
 
 ### Footer Section: 
 - The footer section includes links to the relevant social media sites for GigFree. The links will open a new tab to allow easy navigation for users. 
